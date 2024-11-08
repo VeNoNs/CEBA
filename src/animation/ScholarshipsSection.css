@@ -1,0 +1,31 @@
+/* ScholarshipsSection.css */
+
+/* Contenedor de las tarjetas de becas */
+.scholarship-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .scholarship-card:hover {
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+  }
+  
+  /* Animación de entrada */
+  @keyframes fadeInScholarship {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .scholarship-card {
+    animation: fadeInScholarship 0.6s ease-in-out forwards;
+  }
+  

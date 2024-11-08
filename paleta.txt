@@ -1,0 +1,6 @@
+Paleta de colores:
+Azul Grisáceo (fondo de áreas clave): #4A6472
+Dorado (botones y elementos destacados): #C89D5A
+Beige Claro (fondo general): #E6D8C3
+Negro Grisáceo (texto principal): #2E2E2E
+Blanco (contraste y detalles): #FFFFFF

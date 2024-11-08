@@ -1,0 +1,28 @@
+/* WhatsAppButton.css */
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .whatsapp-button-animation {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Estilos para el botón */
+  .fixed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
