@@ -24,12 +24,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
 
   return (
     <div>
-      <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
-        <h1 className="text-xl">Dashboard de {user.role}</h1>
-        <button onClick={logout} className="text-red-400">
-          Cerrar sesión
-        </button>
-      </header>
+      
       <main>{children}</main>
       <footer className="p-4 bg-gray-800 text-white text-center">© 2023 I.E.</footer>
     </div>
