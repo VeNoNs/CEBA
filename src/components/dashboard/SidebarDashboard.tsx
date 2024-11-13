@@ -51,13 +51,7 @@ const SidebarDashboard = ({ role }: SidebarDashboardProps) => {
     secretaria: [
       { name: "Dashboard", href: "/dashboard/secretaria" },
       { name: "Pensiones", href: "/dashboard/secretaria/pensiones" },
-      {
-        name: "Matriculas",
-        subItems: [
-          { name: "Documentos", href: "/dashboard/secretaria/matriculas/documentos" },
-          { name: "Pagos", href: "/dashboard/secretaria/matriculas/pagos" },
-        ],
-      },
+      { name: "Matriculas", href: "/dashboard/secretaria/matriculas" },
       { name: "Asistencia Docente", href: "/dashboard/secretaria/asistencias" },
       { name: "Cerrar sesión", href: "/" }, // Cerrar sesión agregado aquí
     ],
